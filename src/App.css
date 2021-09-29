@@ -322,6 +322,7 @@ width: 70%;
     justify-content: space-between;
     gap: 50px;
     color: #0071bd;
+
 }
 .chart-title{
     color: #0071bd !important;
@@ -330,7 +331,8 @@ width: 70%;
     display: flex !important;
     gap: 20px !important;
     align-items: center !important;
-    flex-wrap: wrap !important;
+    flex-wrap:nowrap !important;
+    margin-left:auto;
 }
 .price-change{
     font-weight: 900 !important;
